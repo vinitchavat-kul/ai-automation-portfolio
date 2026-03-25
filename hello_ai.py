@@ -6,9 +6,11 @@ import io
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')  # แก้ภาษาไทย
 
 import google.generativeai as genai
+import os
+from dotenv import load_dotenv
 
-# ใส่ API Key ของคุณตรงนี้
-API_KEY = "AIzaSyAZXiEnMggQcoLVEqprlz-a8OAqO1B9q6Y"
+load_dotenv()
+API_KEY = os.getenv("GEMINI_API_KEY")
 
 # เชื่อมต่อกับ Gemini
 genai.configure(api_key=API_KEY)
