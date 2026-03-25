@@ -1,0 +1,10 @@
+# Environment Variables
+.env
+
+# Python Cache
+__pycache__/
+*.py[cod]
+
+# Output Data / Ignored Folders
+manual/
+batch/
