@@ -1,0 +1,7 @@
+feat: add Document Summarizer project
+
+- Supports direct text input and batch .txt processing
+- Uses Gemini API with structured summary format
+- Saves output as .txt files
+- Built with Python, google-genai, rich, python-dotenv
+- Add README.md and .gitignore
