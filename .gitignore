@@ -11,3 +11,6 @@ __pycache__/
 venv/
 .venv/
 env/
+
+# Ignore temporary commit message files
+.commit_msg
