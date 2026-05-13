@@ -1,0 +1,10 @@
+# Personal resume data — do not commit to public repos
+*.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+.venv/
+venv/
